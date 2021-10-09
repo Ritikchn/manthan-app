@@ -2,6 +2,7 @@ import React from 'react';
 import { Data } from '../Data';
 import "../css/result.css";
 const Result=(props)=>{
+    const score=props.type!="2"?(-23):(73);
     const type=props.type;
     const green= "rgb"+"(143, 238, 143)";
     const red="rgb"+"(214, 92, 84)";
@@ -12,7 +13,7 @@ const Result=(props)=>{
         <img style={style1} className="shapes " src="../svg/shapes.svg" alt="shapes" width="400px" height="400px"/>
         <img style={style2} className="  shapes2" src="../svg/shapes.svg" alt="shapes" width="400px" height="400px"/>
         
-        <h1>RQ Score :</h1>
+        <h1 >RQ Score : {score}</h1>
         <div className="table">
             <table>
                 <tr>
