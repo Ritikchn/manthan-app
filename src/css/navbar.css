@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Questrial&display=swap');
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 50px;
+  }
+  body{
+      margin: 2%;
+      display: flex;
+      align-items: center;
+  }
+  .navbar-el{
+    width: 96vw;
+    
+  }
+  li{
+      font-size: 20px;
+      margin: 50px;
+      font-family: 'Questrial', sans-serif;
+      transition: transform 1s;
+  }
+  .msg{
+    border: 2px solid rgb(238, 220, 64);
+    padding: 9px;
+    background-color: #f1ec9d;
+    color: rgb(32, 32, 29);
+    transition: .2s;
+    box-shadow: 0 4px 8px 0 rgba(236, 233, 21, 0.32), 0 6px 20px 0 rgba(228, 250, 26, 0.43);
+  }
+  .msg:hover{
+    background-color: rgb(241, 228, 38);
+    color: black;
+    padding-left: 30px;
+    box-shadow: 0 4px 8px 0 rgba(236, 233, 21, 0.2), 0 6px 20px 0 rgba(228, 250, 26, 0.19);
+    transform: scale(1.2);
+    border-radius: 2px;
+    cursor: pointer;
+  }
+  .navigation{
+    border: 2px solid whitesmoke;
+    padding: 9px;
+    transition: .2s;
+  }
+  .navigation:hover{
+    background-color: rgb(255, 255, 255);
+    color: black;
+    padding-left: 30px;
+    box-shadow: 0 4px 8px 0 rgba(255, 255, 255, 0.2), 0 6px 20px 0 rgba(248, 245, 247, 0.19);
+    transform: scale(1.2);
+    border-radius: 2px;
+    cursor: pointer;
+  }
+  .msg:hover .fa-bell{
+    position: relative;
+    transform: scale(2.3);
+    left: -13px;
+  }
+  .navigation:hover .fa-bell{
+    position: relative;
+    transform: scale(2.3);
+    left: -13px;
+  }
+  .fa-bell{
+    margin: 8px;
+    transition: transform .2s;
+  }

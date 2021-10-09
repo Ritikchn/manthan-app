@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Secular+One&display=swap');
+.searchbox-cont{
+    display: flex;
+    justify-content: center;
+  
+    margin: 15% 0;
+    margin-bottom: 8%;
+}
+.search-input{
+    border: none;
+    width: 45%;
+    height: 80px;
+    border-radius: 5px 0px 0px 5px;
+    font-size: 1.5rem;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    text-align: center;
+    padding: 0;
+    padding-left: 55px;
+    
+}
+input{
+    transition: .4s;
+}
+.fa-search{
+    position: relative;
+    height: 25px;
+    color: rgb(170, 156, 156);
+    right: -3%;
+    margin-top: 27px;
+  
+}
+
+input:focus{
+    outline: none;
+    box-shadow: 0 4px 8px 0 rgba(255, 255, 255, 0.2), 0 6px 20px 0 rgba(248, 245, 247, 0.19);
+    
+    
+}
+button{
+    border: none;
+    border-radius: 0 5px 5px 0;
+    width: 6%;
+   
+    font-size: 1.0rem;
+    background-color: #39354b;
+    font-family: 'Secular One', sans-serif;
+    color: white;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+   transition: transform .2s;
+}
+button:hover{   
+    transform: scale(1.5);
+    cursor: pointer;
+}

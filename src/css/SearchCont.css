@@ -1,0 +1,22 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Display:wght@900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+Arabic:wght@300&display=swap');
+.cont-1{
+    margin: 4%;
+    margin-top: 5%;
+    display: flex;
+}
+h1{
+    font-size: 4.0rem;
+}
+p{
+    font-family: 'IBM Plex Sans Arabic', sans-serif;
+}
+.first-div{
+    text-align: center;
+    display: flex;
+    align-items: center;
+}
+.search-cont{
+    text-align: left;
+}
+
